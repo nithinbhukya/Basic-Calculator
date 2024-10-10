@@ -1,0 +1,54 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.display {
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #00bcd4;
+}
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 2px;
+    border-color: #00bcd4;
+    border-style: solid;
+    background-color: #151414;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+
+.ac-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.del-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.equals-button {
+    background-color: #4caf50;
+    color: white;
+}
